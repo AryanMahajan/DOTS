@@ -1,0 +1,9 @@
+Packages Used:
+- pandas
+- numpy
+- matplotlib
+- tensorflow
+- cv2
+- pickle
+- os
+- tqdm
