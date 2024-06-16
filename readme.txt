@@ -1,4 +1,4 @@
-This project, DOTS (Dog Or Tomcat Sorter), utilizes TensorFlow and Convolutional Neural Networks (CNNs) to accurately classify images containing either dogs or cats.
+This project, DOTS (Dog or Cat Sorter), utilizes TensorFlow and Convolutional Neural Networks (CNNs) to accurately classify images containing either dogs or cats.
 
 Project Description:
 DOTS is an image classification project built with TensorFlow. It aims to achieve high accuracy in distinguishing between images of dogs and cats. The model is trained on a large dataset of labeled dog and cat images.
