@@ -14,3 +14,6 @@ How to run the model:
 2. Then open category.py file and change the "TEST_CATEGORY" ot the name of the folder you chose to made in step 1 (Dog or Cat).
 3. Now also set the "DATADIR_TRAIN" and "DATADIR_TEST" to the "Location-of-repository-on-your-system\data\PetImages\Train" and "Location-of-repository-on-your-system\data\PetImages\Test" respectively.
 4. Then go to the terminal and type "python main.py" to run the model and make a prediction.
+
+Inbuilt model
+The model "dots.keras" is already trained on a dataset of 25,00 images (12,500 dogs and 12,500 cats).
