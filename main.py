@@ -1,5 +1,5 @@
 from training_model import training_model
-from loading_data import create_test_data, create_training_data
+from loading_data import create_test_data
 from category import TEST_CATEGORY as class_category
 
 import tensorflow as tf
