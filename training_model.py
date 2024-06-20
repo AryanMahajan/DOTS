@@ -1,4 +1,4 @@
-from loading_data import create_test_data, create_training_data
+from loading_data import create_training_data
 
 import tensorflow as tf
 import pickle
