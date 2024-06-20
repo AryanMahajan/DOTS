@@ -29,17 +29,17 @@ else:
 #normalizing x_test
 x_test = x_test / 255.0
 
-prediction_num = model.predict(x_test)
+prediction_num = model.predict([x_test])
 
 #converting the prediction to class labels
 if((prediction_num)<=0.5):
-    print(f"Probability of the being Dog = {(1-prediction_num)*100} %")
+    print(f"Probability of the being Dog = {(1-(int(prediction_num[0][0])))*100} %")
     if class_category == ["Cat"]:
         print("The Prediction is Incorrect.")
     else:
         print("The Prediction is Correct.")
 else:
-    print(f"Probability of the being Cat = {(prediction_num)*100} %")
+    print(f"Probability of the being Cat = {(int(prediction_num[0][0]))*100} %")
     if class_category == ["Dog"]:
         print("The Prediction is Incorrect.")
     else:
