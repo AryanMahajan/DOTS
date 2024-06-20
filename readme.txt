@@ -18,5 +18,5 @@ How to run the model:
 Inbuilt model
 The model "dots.keras" is already trained on a dataset of 25,00 images (12,500 dogs and 12,500 cats).
 
-Author: Aryan Mahajan
+Contributor: Aryan Mahajan
 GitHub Username: AryanMahajan
